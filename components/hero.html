@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hero area</title>
+    <link rel="stylesheet" href="hero.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero__overlay">
+        <!-- Navigation -->
+        <button
+          class="hero__nav hero__nav--prev"
+          type="button"
+          aria-label="Previous slide"
+        >
+          <img
+            src="../img/hero-slider-right-arrow.png"
+            alt=""
+            class="hero__nav-icon"
+          />
+        </button>
+
+        <button
+          class="hero__nav hero__nav--next"
+          type="button"
+          aria-label="Next slide"
+        >
+          <img
+            src="../img/hero-slider-leftt-arrow.png"
+            alt=""
+            class="hero__nav-icon"
+          />
+        </button>
+
+        <!-- Slider -->
+        <div class="hero__slider">
+          <!-- Slide -->
+          <article class="hero__slide hero__slide--active">
+            <div class="hero__media">
+              <img
+                src="../img/video-thumbnail-img.png"
+                alt="Adidas product showcase"
+                class="hero__image"
+              />
+            </div>
+
+            <div class="hero__content">
+              <h1 class="hero__title">GET READY for New Adidas Bands</h1>
+              <p class="hero__text">
+                Adidas tracks all begin with a starting gate and end with a
+                finish line, but everything in between varies from track to
+                track. Because no two tracks are alike, this action sport keeps
+                you on your toes wherever you are racing.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Pagination -->
+        <div class="hero__pagination">
+          <button
+            class="hero__pagination-btn hero__pagination-btn--active"
+            type="button"
+            aria-label="Go to slide 1"
+          ></button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

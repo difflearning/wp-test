@@ -1,0 +1,66 @@
+        block-size: 6rem;
+            .container{
+
+                grid-template-columns: 1fr auto auto;
+                place-items: center start;
+
+                height: 100%;
+                padding: 0;
+               
+                .brand-logo{
+
+                }
+                .action{
+
+                    /* border: 2px dashed yellow; */
+                    /* width: 100%; */
+                    display: flex;
+                    justify-content: center;
+                    gap: 1rem;
+                    .action__btn{
+                        transform: skew(-20deg);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 148px;
+                        height: 40px;
+                        /* background-color: red; */
+                        color: white;
+                        text-decoration: none;
+                        font-family: 'Oswald',sans-serif;
+                        font-size: 1.6rem;
+                        font-weight: 600;
+                        text-transform: uppercase;
+
+                        span{
+
+                             transform: skew(20deg);
+                        }
+
+
+                        &.membership{
+
+                            background: url('/img/membership-btn.png');
+                        }
+                        &.account{
+                            
+                            background: url('/img/btn-account.png');
+
+
+                        }
+
+                        
+                    }
+                }
+
+                .burger-menu{
+                    button{
+
+                        border: 0;
+                        background: transparent;
+                        display: none;
+                    }
+                }
+
+
+            }

@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Adidos</title>
+  </head>
+  <body>
+    <div class="notification">
+      <p class="notification__text">
+        LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /
+        <span class="notification__highlight"> WATCH NOW </span>
+      </p>
+      <button
+        class="notification__toggle"
+        aria-label="Close notification"
+        aria-expanded="false"
+      >
+        <img
+          class="notification__icon"
+          src="../img/menu-close-icon.png"
+          alt=""
+        />
+      </button>
+    </div>
+
+    <header>
+      <!-- Top Bar Start -->
+      <div class="top-bar">
+        <div class="top-bar__container container">
+          <!-- Brand Start -->
+          <div class="top-bar__brand">
+            <a href="/" class="top-bar__logo" aria-label="Adidas Home">
+              <span class="top-bar__logo-text">adidas</span>
+            </a>
+          </div>
+          <!-- Brand End -->
+
+          <!-- Mobile Menu Start -->
+          <div class="top-bar__menu">
+            <button
+              class="top-bar__menu-button"
+              type="button"
+              aria-label="Open menu"
+              aria-expanded="false"
+            >
+              <img
+                src="../img/burger-icon.png"
+                alt=""
+                class="top-bar__menu-icon"
+              />
+            </button>
+          </div>
+          <!-- Mobile Menu End -->
+
+          <!-- Actions Start -->
+          <div class="top-bar__actions">
+            <!-- Membership Button Start -->
+            <a
+              href="#"
+              class="top-bar__action-btn top-bar__action-btn--membership"
+            >
+              <span class="top-bar__action-text">Membership</span>
+            </a>
+            <!-- Membership Button End -->
+
+            <!-- Account Button Start -->
+            <a
+              href="#"
+              class="top-bar__action-btn top-bar__action-btn--account"
+            >
+              <span class="top-bar__action-text">Account</span>
+            </a>
+            <!-- Account Button End -->
+          </div>
+          <!-- Actions End -->
+        </div>
+      </div>
+      <!-- Top Bar End -->
+
+      <nav class="nav-bar" aria-label="Main navigation">
+        <div class="nav-bar__container container">
+          <ul class="nav-bar__menu">
+            <li class="nav-bar__menu-item">
+              <a href="#" class="nav-bar__menu-link">
+                <span class="nav-bar__menu-text">OUR TRACKS</span>
+              </a>
+            </li>
+
+            <li class="nav-bar__menu-item">
+              <a href="#" class="nav-bar__menu-link">
+                <span class="nav-bar__menu-text">FIND EVENTS</span>
+              </a>
+            </li>
+
+            <li class="nav-bar__menu-item">
+              <a href="#" class="nav-bar__menu-link">
+                <span class="nav-bar__menu-text">TRACK MAP</span>
+              </a>
+            </li>
+
+            <li class="nav-bar__menu-item">
+              <a href="#" class="nav-bar__menu-link">
+                <span class="nav-bar__menu-text">SHOP</span>
+              </a>
+            </li>
+
+            <li class="nav-bar__menu-item">
+              <a href="#" class="nav-bar__menu-link">
+                <span class="nav-bar__menu-text">ABOUT US</span>
+              </a>
+            </li>
+          </ul>
+
+          <form class="nav-bar__search" action="#" role="search">
+            <input
+              id="site-search"
+              type="search"
+              class="nav-bar__search-input"
+              placeholder="SEARCH"
+            />
+
+            <button type="submit" class="nav-bar__search-button">
+              <img
+                src="../img/search-icon.png"
+                alt="Search"
+                class="nav-bar__search-icon"
+              />
+            </button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="breadcrumb" aria-label="Page header">
+        <div class="breadcrumb__container full-right">
+          <div class="breadcrumb__content">
+            <h1 class="breadcrumb__title">Home Page</h1>
+            <a href="#" class="breadcrumb__sponsor">
+              <picture class="breadcrumb__sponsor-media">
+                <img
+                  src="../img/poweredby.png"
+                  alt="Powered by company name"
+                  class="breadcrumb__sponsor-image"
+                />
+              </picture>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="hero__overlay">
+          <button class="hero__arrow hero__arrow--next">
+            <img src="img/hero-slider-leftt-arrow.png" alt="Next slide" />
+          </button>
+
+          <button class="hero__arrow hero__arrow--prev">
+            <img src="img/hero-slider-right-arrow.png" alt="Previous slide" />
+          </button>
+
+          <div class="slide">
+            <div class="hero__image-wrapper">
+              <img
+                src="img/video-thumbnail-img.png"
+                alt="Product Image"
+                class="hero__image"
+              />
+            </div>
+
+            <div class="content">
+              <h1>GET READY for New Adidas bands</h1>
+              <p>
+                Adidas tracks all begin with a starting gate and end with a
+                finish line, but everything in between varies from track to
+                track. Because no two tracks are alike, this action sport keeps
+                you on your toes wherever you are racing.
+              </p>
+            </div>
+          </div>
+
+          <div class="hero__pagination">
+            <button class="hero__pagination-btn"></button>
+            <button class="hero__pagination-btn"></button>
+            <button class="hero__pagination-btn"></button>
+            <button class="hero__pagination-btn"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="two-col">
+          <div class="two-col__content">
+            <div class="careousel">
+              <button class="careousel__btn left">
+                <img src="img/hero-slider-leftt-arrow.png" alt="" />
+              </button>
+              <button class="careousel__btn right">
+                <img src="img/hero-slider-right-arrow.png" alt="" />
+              </button>
+
+              <picture>
+                <img src="img/thubnail-slider-img.png" alt="" />
+              </picture>
+
+              <div class="careousel__pagination">
+                <button class="careousel__pagination-btn active"></button>
+                <button class="careousel__pagination-btn"></button>
+                <button class="careousel__pagination-btn"></button>
+                <button class="careousel__pagination-btn"></button>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="event-grid">
+              <div class="event-card">
+                <picture class="event-card__media">
+                  <img src="img/post-img.png" class="event-card__img" alt="" />
+                </picture>
+
+                <div class="event-card__content">
+                  <h3 class="event-card__title">
+                    2019 NATIONAL CHAMPIONS CROWNED AT Reebok
+                  </h3>
+
+                  <p class="event-card__description">
+                    Membership has its perks. Joining ADIDAS means you can race
+                    at your local tracks
+                  </p>
+                </div>
+
+                <a href="#" class="event-card__btn">Read More</a>
+              </div>
+              <div class="event-card">
+                <picture class="event-card__media">
+                  <img src="img/post-img.png" class="event-card__img" alt="" />
+                </picture>
+
+                <div class="event-card__content">
+                  <h3 class="event-card__title">
+                    2019 NATIONAL CHAMPIONS CROWNED AT Reebok
+                  </h3>
+
+                  <p class="event-card__description">
+                    Membership has its perks. Joining ADIDAS means you can race
+                    at your local tracks
+                  </p>
+                </div>
+
+                <a href="#" class="event-card__btn">Read More</a>
+              </div>
+              <div class="event-card">
+                <picture class="event-card__media">
+                  <img src="img/post-img.png" class="event-card__img" alt="" />
+                </picture>
+
+                <div class="event-card__content">
+                  <h3 class="event-card__title">
+                    2019 NATIONAL CHAMPIONS CROWNED AT Reebok
+                  </h3>
+
+                  <p class="event-card__description">
+                    Membership has its perks. Joining ADIDAS means you can race
+                    at your local tracks
+                  </p>
+                </div>
+
+                <a href="#" class="event-card__btn">Read More</a>
+              </div>
+            </div>
+
+            <div class="membership">
+              <div class="membership__card">
+                <picture class="membership__media">
+                  <img
+                    src="img/zig-zag-img-1.png"
+                    alt=""
+                    class="membership__img"
+                  />
+                </picture>
+
+                <div class="membership__content">
+                  <h3 class="membership__title">
+                    2019 NATIONAL CHAMPIONS CROWNED AT Reebok
+                  </h3>
+                  <p class="membership__message">
+                    Membership has its perks. Joining ADIDAS means you can race
+                    at your local tracks
+                  </p>
+                </div>
+              </div>
+
+              <div class="membership__card membership__card--reverse">
+                <picture class="membership__media">
+                  <img
+                    src="img/zig-zag-img-2.png"
+                    alt=""
+                    class="membership__img membership__img--reverse"
+                  />
+                </picture>
+
+                <div class="membership__content">
+                  <h3 class="membership__title">
+                    2019 NATIONAL CHAMPIONS CROWNED AT Reebok
+                  </h3>
+                  <p class="membership__message">
+                    Membership has its perks. Joining ADIDAS means you can race
+                    at your local tracks
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="two-col__news">
+            <div class="events">
+              <h1 class="events__title">EVENTS</h1>
+              <ul class="events__list">
+                <li class="events__item">
+                  <h2 class="events__number">1</h2>
+                  <div class="events__content">
+                    <h3 class="events__sub-title">SHOW IN USA</h3>
+                    <span class="events__location">USA</span>
+                  </div>
+                </li>
+                <li class="events__item">
+                  <h2 class="events__number">2</h2>
+                  <div class="events__content">
+                    <h3 class="events__sub-title">Adidas show IN USA</h3>
+                    <span class="events__location">USA</span>
+                  </div>
+                </li>
+                <li class="events__item">
+                  <h2 class="events__number">3</h2>
+                  <div class="events__content">
+                    <h3 class="events__sub-title">Adidas show</h3>
+                    <span class="events__location">USA</span>
+                  </div>
+                </li>
+                <li class="events__item">
+                  <h2 class="events__number">4</h2>
+                  <div class="events__content">
+                    <h3 class="events__sub-title">Adidas in USA</h3>
+                    <span class="events__location">USA</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="contact-section">
+        <div class="contact-section__container">
+          <h2 class="contact-section__title">Get in touch with us</h2>
+
+          <form action="" class="contact-form" novalidate>
+            <!-- Name -->
+            <div class="contact-form__group">
+              <label for="name" class="contact-form__label">Name</label>
+
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="contact-form__input"
+                placeholder="enter name"
+              />
+            </div>
+
+            <!-- Email -->
+            <div class="contact-form__group">
+              <label for="email" class="contact-form__label">Email</label>
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="contact-form__input"
+                placeholder="enter email"
+              />
+            </div>
+
+            <!-- Country -->
+            <div class="contact-form__group">
+              <label for="country" class="contact-form__label">Country</label>
+
+              <select id="country" name="country" class="contact-form__select">
+                <option value="usa">USA</option>
+                <option value="pakistan">Pakistan</option>
+              </select>
+            </div>
+
+            <!-- State -->
+            <div class="contact-form__group">
+              <label for="state" class="contact-form__label">State</label>
+
+              <select id="state" name="state" class="contact-form__select">
+                <option value="california">USA</option>
+                <option value="punjab">Punjab</option>
+              </select>
+            </div>
+
+            <!-- Gender -->
+            <fieldset class="contact-form__fieldset">
+              <legend class="contact-form__legend">Gender</legend>
+
+              <div class="contact-form__radio-group">
+                <div class="contact-form__radio-item">
+                  <input
+                    type="radio"
+                    id="male"
+                    name="gender"
+                    value="male"
+                    class="contact-form__radio-input"
+                  />
+
+                  <label for="male" class="contact-form__radio-label">
+                    Male
+                  </label>
+                </div>
+
+                <div class="contact-form__radio-item">
+                  <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="female"
+                    class="contact-form__radio-input"
+                  />
+
+                  <label for="female" class="contact-form__radio-label">
+                    Female
+                  </label>
+                </div>
+
+                <div class="contact-form__radio-item">
+                  <input
+                    type="radio"
+                    id="other"
+                    name="gender"
+                    value="other"
+                    class="contact-form__radio-input"
+                  />
+
+                  <label for="other" class="contact-form__radio-label">
+                    Other
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- Message -->
+            <div class="contact-form__group">
+              <label for="message" class="contact-form__label"> Message </label>
+
+              <textarea
+                id="message"
+                name="message"
+                class="contact-form__textarea"
+                placeholder="Message"
+                rows="4"
+              ></textarea>
+            </div>
+
+            <!-- Button -->
+            <button type="submit" class="contact-form__button">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class="footer__nav">
+          <ul class="footer__menu">
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Our Tracks</a>
+            </li>
+
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Find Events</a>
+            </li>
+
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Track Map</a>
+            </li>
+
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Shop</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">About Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="footer__social">
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  src="img/facebook-icon.png"
+                  alt="Facebook"
+                  class="footer__social-icon"
+                />
+              </a>
+            </li>
+
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  src="img/twitter-icon.png"
+                  alt="Twitter"
+                  class="footer__social-icon"
+                />
+              </a>
+            </li>
+
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  src="img/instagram-icon.png"
+                  alt="Instagram"
+                  class="footer__social-icon"
+                />
+              </a>
+            </li>
+
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  src="img/linkedin-icon.png"
+                  alt="LinkedIn"
+                  class="footer__social-icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <p class="footer__copyright">© Copyright 2020 Adidas</p>
+      </div>
+    </footer>
+  </body>
+</html>
