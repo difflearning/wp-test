@@ -1146,7 +1146,6 @@
 
               &.membership{
 
-                      border: 2px solid red;
 
                       margin-bottom: 3rem;
                       .membership__card {
@@ -1264,7 +1263,7 @@
           @media (min-width: 768px) {
             &.events {
               padding: 0;
-              border: 2px dashed yellow;
+
               .events__title {
                 font-size: clamp(2rem, 3vw, 2.5rem);
               }
