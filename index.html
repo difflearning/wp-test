@@ -150,44 +150,70 @@
         </div>
       </div>
 
-      <div class="hero">
-        <div class="hero__overlay">
-          <button class="hero__arrow hero__arrow--next">
-            <img src="img/hero-slider-leftt-arrow.png" alt="Next slide" />
-          </button>
+      
+        <section class="hero">
+      <div class="hero__overlay">
+        <!-- Navigation -->
+        <button
+          class="hero__nav hero__nav--prev"
+          type="button"
+          aria-label="Previous slide"
+        >
+          <img
+            src="../img/hero-slider-right-arrow.png"
+            alt=""
+            class="hero__nav-icon"
+          />
+        </button>
 
-          <button class="hero__arrow hero__arrow--prev">
-            <img src="img/hero-slider-right-arrow.png" alt="Previous slide" />
-          </button>
+        <button
+          class="hero__nav hero__nav--next"
+          type="button"
+          aria-label="Next slide"
+        >
+          <img
+            src="../img/hero-slider-leftt-arrow.png"
+            alt=""
+            class="hero__nav-icon"
+          />
+        </button>
 
-          <div class="slide">
-            <div class="hero__image-wrapper">
+        <!-- Slider -->
+        <div class="hero__slider">
+          <!-- Slide -->
+          <article class="hero__slide hero__slide--active">
+            <div class="hero__media">
               <img
-                src="img/video-thumbnail-img.png"
-                alt="Product Image"
+                src="../img/video-thumbnail-img.png"
+                alt="Adidas product showcase"
                 class="hero__image"
               />
             </div>
 
-            <div class="content">
-              <h1>GET READY for New Adidas bands</h1>
-              <p>
+            <div class="hero__content">
+              <h1 class="hero__title">GET READY for New Adidas Bands</h1>
+              <p class="hero__text">
                 Adidas tracks all begin with a starting gate and end with a
                 finish line, but everything in between varies from track to
                 track. Because no two tracks are alike, this action sport keeps
                 you on your toes wherever you are racing.
               </p>
             </div>
-          </div>
+          </article>
+        </div>
 
-          <div class="hero__pagination">
-            <button class="hero__pagination-btn"></button>
-            <button class="hero__pagination-btn"></button>
-            <button class="hero__pagination-btn"></button>
-            <button class="hero__pagination-btn"></button>
-          </div>
+        <!-- Pagination -->
+        <div class="hero__pagination">
+          <button
+            class="hero__pagination-btn hero__pagination-btn--active"
+            type="button"
+            aria-label="Go to slide 1"
+          ></button>
         </div>
       </div>
+        </section>
+
+
     </header>
 
     <main>
