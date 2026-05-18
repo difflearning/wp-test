@@ -58,6 +58,12 @@
     /* min-height: 100dvh; */
     background: url("img/bg.jpg");
     overflow-x: hidden;
+
+  }
+
+  .no-scroll {
+      overflow: hidden;
+      height: 100dvh;
   }
 
   .container {
@@ -225,8 +231,10 @@
   header {
 
     .top-bar {
+
           /* padding: 1rem 0; */
           .top-bar__container {
+
             grid-template-columns: 1fr auto;
             place-items: center start;
             gap: 1.5rem;
@@ -283,6 +291,11 @@
               }
             }
           }
+
+
+
+
+
 
           /* BASE = mobile first */
 
@@ -368,13 +381,25 @@
 
     .nav-bar {
 
-
-      position: relative;
+      position: fixed;
+      /* inset: 0; */
+      width: 100%;
+      min-height: 100dvh;
       background-color: #3c8953;
-      opacity: 0.8;
-      block-size: 100dvh;
+      /* opacity: 0.8; */
+      /* block-size: 100dvh; */
       padding: 1rem 1.5rem;
-      display: none;
+      /* display: block; */
+      
+        display: none;
+
+        &.nav-bar--active {
+            display: block;
+        }
+
+      z-index: 999;
+
+
       .nav-bar__container{
         
         &.container {
@@ -467,11 +492,11 @@
           display: block;
           position: relative;
           background: url("../img/btn-account.png");
-          block-size: 6rem;
+          /* block-size: 6rem; */
           opacity: 0.8;
           padding: 0;
           margin: 0;
-
+              min-height: 6rem;
           .nav-bar__container{
      
             &.container {
